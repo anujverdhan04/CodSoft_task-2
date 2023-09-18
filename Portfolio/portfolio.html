@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Student Portfolio</title>
+</head>
+
+<body>
+    
+    <header>
+        <div class="header-content">
+            <img src="pc.jpg" alt="Student Image" class="profile-image">
+            <div class="header-info">
+                <h1>Anuj Verdhan</h1>
+                <p>Computer Science Student</p>
+                <p>Contact: anujverdhan049@gmail.com</p>
+            </div>
+            <a href="#" class="contact-button" onclick="openContactForm()">Contact</a>
+            <a href="projects.html" class="view-all-projects-button">View All Projects</a>
+        </div>
+    </header>
+    
+
+    <section class="download-cv">
+        <h2>Download CV</h2>
+        <p>Click the button below to download my CV:</p>
+        <a href="resume anuj verdhan.pdf" download class="download-button">Download CV</a>
+    </section>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+
+    
+            "I am a passionate and diligent student from Dehradun, Uttarakhand, currently pursuing a Bachelor of
+            Technology (B.Tech) in Computer Science and Engineering at Graphic Era Hill University. With a strong
+            interest in technology and a penchant for web development, I have consistently proven my dedication to both
+            academics and the world of coding.
+
+            Time management is a skill I've honed meticulously, allowing me to seamlessly juggle the demands of a
+            challenging academic curriculum and my web development projects. I thrive in an environment that requires me
+            to excel academically while delivering top-quality web solutions.
+
+            My leadership qualities shine through in my ability to take the lead and collaborate effectively on various
+            projects. I find joy in inspiring and guiding my peers, fostering a sense of teamwork and achieving
+            collective goals.
+
+            In summary, I am a driven and well-rounded individual who excels academically and thrives in the world of
+            web development. My dedication to continuous learning, exceptional time management, and leadership skills
+            set me apart as a standout student at Graphic Era Hill University, ready to make a mark in the field of
+            Computer Science and Engineering."
+        </p>
+    </section>
+
+
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C Language</li>
+            <li>C++</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Database Design</li>
+        </ul>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <div class="education-entry">
+            <h3>Bachelor's Degree in Computer Science</h3>
+            <p>Graphic Era Hill University </p>
+            <p>Graduate By: July 2024</p>
+        </div>
+    </section>
+
+    <section class="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Coding</li>
+            <li>Reading</li>
+            <li>Nature Photography</li>
+            <li>Travellin Random Places</li>
+        </ul>
+    </section>
+
+    <section class="certifications">
+        <h2>Certifications</h2>
+        <div class="certification-entry">
+            <h3>Front-End Web Development</h3>
+            <p>Open Weaver </p>
+            <p>Date: September 2023</p>
+        </div>
+        <div class="certification-entry">
+            <h3>Cybersecurity Essential</h3>
+            <p>Cisco Networking Academy</p>
+            <p>Date: August 2023</p>
+        </div>
+        <div class="certification-entry">
+            <h3>Introduction To Packet Tracer</h3>
+            <p>Cisco Networking Academy</p>
+            <p>Date: July 2023</p>
+        </div>
+
+    </section>
+
+    <section class="skills-progress">
+        <h2>Skills Progress</h2>
+        <div class="skill">
+            <h3>HTML5</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 79%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>CSS3</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 69%;"></div>
+            </div>
+        </div>
+        <!-- Add more skills and progress bars as needed -->
+    </section>
+
+    <section class="timeline">
+        <h2>Timeline</h2>
+        <div class="timeline-entry">
+            <div class="entry-date">2017 - 2018</div>
+            <div class="entry-content">
+                <h3>High School/ICSE</h3>
+                <p>Guru Nanak Academy</p>
+            </div>
+        </div>
+        <div class="timeline-entry">
+            <div class="entry-date">2019 - 2020</div>
+            <div class="entry-content">
+                <h3>Intermediate/ISC</h3>
+                <p>Guru Nnank Academy</p>
+            </div>
+        </div>
+        <div class="timeline-entry">
+            <div class="entry-date">2020 - 2024</div>
+            <div class="entry-content">
+                <h3>Computer Science Student</h3>
+                <p>Pursuing computer science at Graphic Era Hill Unniversity.</p>
+            </div>
+        </div>
+        <div class="timeline-entry">
+            <div class="entry-date">Summer 2022</div>
+            <div class="entry-content">
+                <h3>Web Developer Intern</h3>
+                <p>Worked as a web developer intern at CodSoft, gaining experience in front-end development.</p>
+            </div>
+        </div>
+        <!-- Add more timeline entries as needed -->
+    </section>
+   
+    <section class="contact-form">
+        <h2>Contact Form with Animation</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://github.com/anujverdhan04" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/anuj-verdhan-963b311a4/" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2023 John Doe</p>
+    </footer>
+    <script src="contact.js"></script>
+</body>
+
+</html>
